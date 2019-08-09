@@ -1,0 +1,15 @@
+x = int(input('Enter an integer: '))
+statement = str(input('Enter a cool statement:'))
+
+if x%2==0:
+    if x%3==0:
+        print("This is number is divisible by 2 and 3")
+    
+    else:
+        print('')
+        print("This number is not divisble by 3")
+        
+else:
+    print('')
+    print("This number is not divisble by 2")
+    print(statement)
